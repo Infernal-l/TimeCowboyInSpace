@@ -25,6 +25,7 @@
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Level","folderPath":"folders/Sprites/Level.yy","name":"Level","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Sprites/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -39,17 +40,19 @@
   "name":"TimeCowboyInSpace",
   "resources":[
     {"id":{"name":"obg_button","path":"objects/obg_button/obg_button.yy",},},
+    {"id":{"name":"obg_camera","path":"objects/obg_camera/obg_camera.yy",},},
     {"id":{"name":"obg_player","path":"objects/obg_player/obg_player.yy",},},
     {"id":{"name":"rm_Level_1","path":"rooms/rm_Level_1/rm_Level_1.yy",},},
     {"id":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
     {"id":{"name":"sprt_Button","path":"sprites/sprt_Button/sprt_Button.yy",},},
     {"id":{"name":"sprt_Miata","path":"sprites/sprt_Miata/sprt_Miata.yy",},},
+    {"id":{"name":"sprt_roadTest","path":"sprites/sprt_roadTest/sprt_roadTest.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
     {"roomId":{"name":"rm_Level_1","path":"rooms/rm_Level_1/rm_Level_1.yy",},},
+    {"roomId":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
