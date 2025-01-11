@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprt_Button",
-    "path":"sprites/sprt_Button/sprt_Button.yy",
+    "name":"sprt_field",
+    "path":"sprites/sprt_field/sprt_field.yy",
   },
   "spriteMaskId":null,
   "visible":true,
